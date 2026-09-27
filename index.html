@@ -1,0 +1,40 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Search Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Word Search Game</h1>
+
+        <p class="info">
+            Find all the words in the grid.
+            Words can be horizontal or vertical, including backwards.
+        </p>
+
+        <div class="game">
+
+            <div class="left">
+                <h2>Words to Find</h2>
+                <ul id="wordList"></ul>
+
+                <button onclick="startGame()">New Game</button>
+
+                <p id="message"></p>
+            </div>
+
+            <div id="grid"></div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
